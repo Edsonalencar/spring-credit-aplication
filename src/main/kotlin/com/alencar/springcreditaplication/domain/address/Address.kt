@@ -1,4 +1,4 @@
-package com.alencar.demo.entity
+package com.alencar.springcreditaplication.domain.address
 
 import jakarta.persistence.Column
 import jakarta.persistence.Embeddable
