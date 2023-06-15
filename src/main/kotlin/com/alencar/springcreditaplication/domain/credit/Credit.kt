@@ -1,5 +1,6 @@
-package com.alencar.demo.entity
+package com.alencar.springcreditaplication.domain.credit
 
+import com.alencar.springcreditaplication.domain.customer.Customer
 import com.alencar.demo.enumeration.Status
 import jakarta.persistence.*
 import java.math.BigDecimal
@@ -20,7 +21,7 @@ data class Credit(
     @Enumerated
     var status: Status = Status.IN_PROGRESS,
     @ManyToOne()
-    val customer: Customer? = null,
+    var customer: Customer? = null,
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null
 )

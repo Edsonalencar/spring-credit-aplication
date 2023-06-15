@@ -1,5 +1,7 @@
-package com.alencar.demo.entity
+package com.alencar.springcreditaplication.domain.customer
 
+import com.alencar.springcreditaplication.domain.address.Address
+import com.alencar.springcreditaplication.domain.credit.Credit
 import jakarta.persistence.*
 
 import java.math.BigDecimal
